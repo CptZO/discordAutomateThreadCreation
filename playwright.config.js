@@ -28,7 +28,7 @@ module.exports = defineConfig({
     headless: false,
     viewport: { width: 1280, height: 720 },
     launchOptions: {
-      slowMo: 50,
+      slowMo: 500,
     },
     //  global timeout for all actions to avoid long waits
     timeout: 300000,
