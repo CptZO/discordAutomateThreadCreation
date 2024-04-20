@@ -33,7 +33,7 @@ const { authenticator } = require('otplib'); // for two fact Auth
             // Checks for sucessful login using waitForURL
             await Promise.all([
                 page.waitForURL('https://discord.com/channels/@me', { timeout: 30000 }),
-                page.isVisible('[aria-label="Private channels"]'),
+                // page.isVisible('[aria-label="Private channels"]'),
             ]);
             
             console.log('Login successful.');
